@@ -61,7 +61,14 @@ public class TicketMachine
     {
         balance = balance + amount;
     }
-
+   /**
+    * Metodo fijar precio del billete
+    */
+   public void setPrice(int precioDelBillete)
+   {
+       price = precioDelBillete;
+   }
+       
     /**
      * Print a ticket.
      * Update the total collected and
