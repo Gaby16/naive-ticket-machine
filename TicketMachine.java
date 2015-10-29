@@ -115,5 +115,12 @@ public class TicketMachine
         System.out.println("The price of a ticket is " + price +" cents");
         
     }
+    /**
+     * Simula sacar monedas dentro de la maquina
+     */
+    public void empty()
+    {
+        balance = 0;
+    }
         
 }
